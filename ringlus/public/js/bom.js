@@ -1,12 +1,15 @@
 
 frappe.ui.form.on('BOM', {
     validate: function (frm, cdt, cdn) {
+        alert("hai")
         var total_oc = 0;
         var total_mc = 0;
         var nested_material_cost = 0;
         var nested_operating_cost = 0;
         var amc = 0;
+        debugger;
         $.each(frm.doc.items || [], function (i, s) {
+           
             if (s.bom_no != '') {
                 var bom = s.bom_no
                 frappe.call({
@@ -32,6 +35,7 @@ frappe.ui.form.on('BOM', {
                 });
             }
             else {
+               
                 amc += s.amount;
                 frm.set_value("ncost", amc);
             }
