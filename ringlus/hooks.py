@@ -33,7 +33,7 @@ doctype_js = {"BOM" : "public/js/bom.js",
 "Sales Order":"public/js/sales_order.js",
 "Delivery Note":"public/js/delivery_note.js",
 "Issue":"public/js/issue.js",
-"Material Reques":"public/js/material_request.js"}
+"Material Reques":"public/js/material_request.js",
 "Salary Slip" :"public/js/salary_slip.js"}
 
 
