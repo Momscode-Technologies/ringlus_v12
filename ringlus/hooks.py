@@ -34,9 +34,7 @@ doctype_js = {"BOM" : "public/js/bom.js",
 "Delivery Note":"public/js/delivery_note.js",
 "Issue":"public/js/issue.js",
 "Material Reques":"public/js/material_request.js"}
-
-
-doctype_js = {"Salary Slip" :"public/js/salary_slip.js"}
+"Salary Slip" :"public/js/salary_slip.js"}
 
 
 doctype_list_js = {"Opportunity":"public/js/opportunity_list.js"}
