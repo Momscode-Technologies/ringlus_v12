@@ -34,7 +34,9 @@ doctype_js = {"BOM" : "public/js/bom.js",
 "Delivery Note":"public/js/delivery_note.js",
 "Issue":"public/js/issue.js",
 "Material Reques":"public/js/material_request.js",
-"Salary Slip" :"public/js/salary_slip.js"}
+"Salary Slip" :"public/js/salary_slip.js",
+#   "Item" : "public/js/item.js"}
+"Item" : "public/js/employee.js"}
 
 
 doctype_list_js = {"Opportunity":"public/js/opportunity_list.js"}
@@ -106,7 +108,10 @@ doc_events = {
     "Production Plan":{
         "on_change":"ringlus.ringlus.doctype.production_plan.production_plan.production_plan_on_save",
         #"on_submit":"ringlus.ringlus.doctype.production_plan.production_plan.make"
-    }
+    },
+    #  "Item": {
+	#     "autoname": "dotted.path.to.autoname.function"
+    #  }
 
 }
 
