@@ -131,7 +131,7 @@ end_date: function(frm,cdt,cdn){
 		method:"ringlus.ringlus.doctype.sales_order.sales_order.get_holidays",
 		args: { "from_date": d.start_date,
 				"to_date": d.end_date}, 
-			doctype:"Leave Application",
+			doctype:"Holiday List",
 		callback: function(r) { 
 			var a=r.message[0]['count(holiday_date)']
 			
@@ -217,7 +217,7 @@ validate: function(frm,cdt,cdn){
 		method:"ringlus.ringlus.doctype.sales_order.sales_order.get_holidays",
 		args: { "from_date": d.start_date,
 				"to_date": d.end_date}, 
-			doctype:"Leave Application",
+			doctype:"Holiday List",
 		callback: function(r) { 
 			var a=r.message[0]['count(holiday_date)']
 			
@@ -266,111 +266,6 @@ validate: function(frm,cdt,cdn){
 	}
 
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
