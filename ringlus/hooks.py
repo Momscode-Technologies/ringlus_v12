@@ -102,9 +102,9 @@ doc_events = {
         "on_change":"ringlus.ringlus.doctype.delivery_note.delivery_note.delivery_note_on_save",
         "on_submit":"ringlus.ringlus.doctype.delivery_note.delivery_note.delivery_note_on_approve"
     },
-   "Sales Invoice":{
-        "on_change":"ringlus.ringlus.doctype.sales_invoice.sales_invoice.sales_invoice_on_save"
-    },
+#    "Sales Invoice":{
+#         "on_change":"ringlus.ringlus.doctype.sales_invoice.sales_invoice.sales_invoice_on_save"
+#     },
     "Production Plan":{
         "on_change":"ringlus.ringlus.doctype.production_plan.production_plan.production_plan_on_save",
         #"on_submit":"ringlus.ringlus.doctype.production_plan.production_plan.make"
